@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" href="image/logo.png" type="image/x-icon">
+    <!-- ===========CSS Files=========== -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+
+<body>
+    <!-- ===========Main Container Start============ -->
+    <div class="main-container">
+        <!-- =============Aside Start============== -->
+        <!-- =============Aside End============== -->
+        <div class="aside" id="sidemuneu">
+            <div class="logo">
+                <a href="#home"><img src="image/bg.png"></a>
+            </div>
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav" id="hide">
+                 <li><a href="index.html" ><i class="fa fa-home"></i>Home</a></li>
+                 <li><a href="Aboutus.html"><i class="fa fa-user"></i>About Us</a></li>
+                 <li><a href="Service.html"><i class="fa fa-clone"></i>Services</a></li>
+                 <li><a href="Contact.html" class="active"><i class="fa-solid fa-address-book"></i>Contoct Us</a></li>
+                 <li><a href="Training.html"><i class="fa-sharp fa-solid fa-graduation-cap"></i> Training</a></li>
+                 <li><a href="privacy.html"><i class="fa-solid fa-lock"></i> Privacy Policy</a></li>
+            </ul>
+        </div>
+        <!-- ==============Aside End============== -->
+        <!-- ==============Main Content Start============== -->
+        <div class="main-content">
+
+            <div class="log">
+                <a href="index.html"><img src="image/bg.png"></a>
+                <i class="fas fa-bars active-bar" onclick="openmenu()" id="openn"></i>
+                <i class="fas fa-times " onclick="closemenu()" id="closee"></i>
+            </div>
+
+            <!-- ===========Contact US Section Start=============== -->
+            <section class="contact section " id="contact">
+                <div class="container">
+                    <div class="row">
+                        <h1 class="top"> Contact Us &#160 </h1>
+                        <div class="row ">
+                            <div class="contact-right">
+                                <div class="book">
+                                    <h1>Book Free Consultion</h1>
+                                </div>
+                                <h2>Please enter your detail here to get a call back from us</h2>
+                                <form name="submit-to-google-sheet1">
+                                    <input type="text" name="Name" placeholder="Enter Your Name" required>
+                                    <input type="email" name="Email" placeholder="Enter Your E-mail" required>
+                                    <input type="number" name="Phone" placeholder="Enter Your Phone Number" required>
+                                    <input type="text" name="Bname" placeholder="Name of Your Business" required>
+                                    <textarea name="Message" rows="6" placeholder="Enter Your Message"></textarea>
+                                    <button type="submit" class="btn ">Submit</button>
+                                </form>
+                                <span id="msg"></span>
+                            </div>
+                            <div class="contact-left">
+                                <i class="fa fa-envelope"></i> <p> dizibusysolution@gmail.com</p>
+                                <i class="fa fa-mobile-phone"></i> <p> +91 7562877940</p>
+                                <i class="fa-solid fa-location-dot"></i> <p> Ashoke Puri B-91 Khajpura Patna-14</p>
+                                <div class="social-icons">
+                                    <h3 class="follow">Follow Us</h3>
+                                    <a href="https://www.facebook.com/profile.php?id=61559809861615"><i class="fa fa-facebook-square fa-3x"></i></a>
+                                    <a href="https://www.instagram.com/dizi__busy"><i class="fa fa-instagram fa-3x"></i></a>
+                                    <a href="https://wa.link/zlqhep"><i class="fa fa-whatsapp fa-3x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- ===========Contact US Section End=============== -->
+
+            <div class="copyright">
+                <p>Copyright 2022 <i class="fa fa-copyright"></i> DiziBusySolution</p>
+            </div>
+        </div>
+        <!-- ==============Main Content End============== -->
+    </div>
+    <!-- ===========Main Container End============== -->
+
+    <!-- ===========JS Files============ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/f4d0d0e2e3.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
